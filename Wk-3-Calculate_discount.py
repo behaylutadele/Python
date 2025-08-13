@@ -1,3 +1,4 @@
+# this assignment is for week 3, It is a function that accept the original price and discount percentage from user and calculate the final result by applying the discount percentage
 def calculate_discount():
     original = input('Enter the original amount: ')
     discount = input('Enter the discount percent: ')
