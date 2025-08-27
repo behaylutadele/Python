@@ -9,11 +9,11 @@ class Smartphone:
         self.battery = battery
     
     def call(self, number):
-        print(f"{self.brand} {self.model} is calling {number}... 📞")
+        print(f"{self.brand} {self.model} is calling {number}...")
     
     def charge(self):
         self.battery = 100
-        print(f"{self.brand} {self.model} is fully charged! 🔋")
+        print(f"{self.brand} {self.model} is fully charged!")
 
 # Child Class (Inheritance)
 class GamingPhone(Smartphone):
@@ -24,7 +24,7 @@ class GamingPhone(Smartphone):
     # Overriding method (Polymorphism)
     def charge(self):
         self.battery = 100
-        print(f"{self.brand} {self.model} charges faster with {self.cooling_system}! ⚡")
+        print(f"{self.brand} {self.model} charges faster with {self.cooling_system}!")
 
 # Create objects
 phone1 = Smartphone("Samsung", "Galaxy S22", "128GB", 50)
@@ -38,15 +38,15 @@ phone2.charge()
 #Activity 2: Polymorphism Challenge
 class Car:
     def move(self):
-        print("Driving 🚗")
+        print("Driving")
 
 class Plane:
     def move(self):
-        print("Flying ✈️")
+        print("Flying")
 
 class Boat:
     def move(self):
-        print("Sailing 🚤")
+        print("Sailing")
 
 # Polymorphism in action
 vehicles = [Car(), Plane(), Boat()]
