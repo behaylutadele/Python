@@ -1,6 +1,5 @@
 
 # Activity 1: Design Your Own Class
-
 # Parent Class
 class Smartphone:
     def __init__(self, brand, model, storage, battery):
@@ -34,7 +33,6 @@ phone2 = GamingPhone("Asus", "ROG Phone 6", "256GB", 30, "Liquid Cooling")
 # Test methods
 phone1.call("0911223344")
 phone2.charge()
-
 
 
 #Activity 2: Polymorphism Challenge
