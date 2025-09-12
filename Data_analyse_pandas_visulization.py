@@ -14,6 +14,9 @@ try:
 except Exception as e:
     print("Error loading dataset:", e)
 
+
+# Tasl 2: Basic Data Analysis
+
 # Display first few rows
 print("First 5 rows of the dataset:")
 display(df.head())
@@ -38,7 +41,7 @@ print("\nMean values grouped by species:")
 grouped = df_cleaned.groupby('species').mean()
 display(grouped)
 
-# Observations / Patterns
+# Task 3: Data Visualization
 print("\nObservations:")
 print("- Setosa tends to have smaller petal lengths and widths.")
 print("- Virginica has the largest sepal and petal sizes.")
